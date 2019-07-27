@@ -3,30 +3,38 @@ var http = require('http');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+
+router.post("/", function (req, res, next) {
+    console.log(req);
     var proxy_host = process.env.HTTP_PROXY_HOST || 'service-edge.default.svc.cluster.local';
     var proxy_port = process.env.HTTP_PROXY_PORT || '13080'; // 13092
 
     console.log(proxy_host + ':' + proxy_port);
     console.log(req.query.city + ", " + req.query.type);
+
     var opt = {
         host: proxy_host,
         port: proxy_port,
-        method: 'GET',
-        path: '/rest/fusionweather/show?city=' + req.query.city,
-        headers: {}
+        method: 'POST',
+        path: '/rest/userservice/addfocus?city=' + req.query.city + '&user=' + req.query.user,
+        headers: {
+        }
     };
-    if (req.query.user) {
-        opt.path = opt.path + "&user=" + req.query.user;
-    }
-    console.log(opt.path);
+
+    if (proxy_host === '127.0.0.1') {
+        opt.path = '/mock/addCollection.json';
+    } 
+
+    console.log("path: " + opt.path);
+    console.log("host: " + opt.host);
+    console.log("port: " + opt.port);
     var body = '';
-    var request = http.request(opt, function (response) {
+    var request = http.request(opt, function(response) {
         console.log("Got response: " + response.statusCode);
         response.on('data', function (d) {
             body += d;
         }).on('end', function () {
-            console.log(body);
+            // console.log(body);
             res.writeHead(200, {'Content-Type': 'application/json; charset=utf8'});
             res.write(body);
             res.end();
@@ -36,5 +44,6 @@ router.get('/', function (req, res, next) {
     });
     request.end();
 });
+
 
 module.exports = router;

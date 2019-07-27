@@ -3,30 +3,38 @@ var http = require('http');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+
+router.put("/", function (req, res, next) {
+    console.log(req);
     var proxy_host = process.env.HTTP_PROXY_HOST || 'service-edge.default.svc.cluster.local';
     var proxy_port = process.env.HTTP_PROXY_PORT || '13080'; // 13092
+    var service_addr = process.env.SERVICE_ADDR || proxy_host + ":" + proxy_port
 
     console.log(proxy_host + ':' + proxy_port);
     console.log(req.query.city + ", " + req.query.type);
     var opt = {
         host: proxy_host,
         port: proxy_port,
-        method: 'GET',
-        path: '/rest/fusionweather/show?city=' + req.query.city,
-        headers: {}
+        method: 'PUT',
+        path: '/rest/userservice/delfocus?city=' + req.query.city + '&user=' + req.query.user,
+        headers: {
+        }
     };
-    if (req.query.user) {
-        opt.path = opt.path + "&user=" + req.query.user;
+
+    if (proxy_host === '127.0.0.1') {
+        opt.path = '/mock/delCollection.json';
     }
-    console.log(opt.path);
+
+    console.log("path: " + opt.path);
+    console.log("host: " + opt.host);
+    console.log("port: " + opt.port);
     var body = '';
-    var request = http.request(opt, function (response) {
+    var request = http.request(opt, function(response) {
         console.log("Got response: " + response.statusCode);
         response.on('data', function (d) {
             body += d;
         }).on('end', function () {
-            console.log(body);
+            // console.log(body);
             res.writeHead(200, {'Content-Type': 'application/json; charset=utf8'});
             res.write(body);
             res.end();
@@ -36,5 +44,6 @@ router.get('/', function (req, res, next) {
     });
     request.end();
 });
+
 
 module.exports = router;
