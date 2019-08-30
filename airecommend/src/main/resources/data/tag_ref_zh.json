@@ -1,0 +1,944 @@
+{
+	"雪人": {
+		"attraction": "上海欢乐谷",
+		"en": "Snowman",
+		"tag": "雪人",
+		"zh": "雪人"
+	},
+	"人": {
+		"attraction": "上海外滩",
+		"en": "People",
+		"tag": "人",
+		"zh": "人"
+	},
+	"和尚": {
+		"attraction": "上海朱家角古镇",
+		"en": "Buddhist monk",
+		"tag": "和尚",
+		"zh": "和尚"
+	},
+	"演奏者": {
+		"attraction": "上海田子坊",
+		"en": "Performer",
+		"tag": "演奏者",
+		"zh": "演奏者"
+	},
+	"按摩师": {
+		"attraction": "上海静安寺",
+		"en": "Massagist",
+		"tag": "按摩师",
+		"zh": "按摩师"
+	},
+	"海军": {
+		"attraction": "上海豫园",
+		"en": "Navy",
+		"tag": "海军",
+		"zh": "海军"
+	},
+	"牙医": {
+		"attraction": "上海外滩",
+		"en": "Dentist",
+		"tag": "牙医",
+		"zh": "牙医"
+	},
+	"新郎": {
+		"attraction": "上海外滩",
+		"en": "Groom",
+		"tag": "新郎",
+		"zh": "新郎"
+	},
+	"男婴": {
+		"attraction": "上海外滩",
+		"en": "Male baby",
+		"tag": "男婴",
+		"zh": "男婴"
+	},
+	"保镖": {
+		"attraction": "上海野生动物园",
+		"en": "Bodyguard",
+		"tag": "保镖",
+		"zh": "保镖"
+	},
+	"焊工": {
+		"attraction": "上海城隍庙",
+		"en": "Welder",
+		"tag": "焊工",
+		"zh": "焊工"
+	},
+	"男孩": {
+		"attraction": "上海长风海洋世界",
+		"en": "Boy",
+		"tag": "男孩",
+		"zh": "男孩"
+	},
+	"乘务员": {
+		"attraction": "上海田子坊",
+		"en": "Flight attendant",
+		"tag": "乘务员",
+		"zh": "乘务员"
+	},
+	"砌砖工人": {
+		"attraction": "上海欢乐谷",
+		"en": "Brickwork",
+		"tag": "砌砖工人",
+		"zh": "砌砖工人"
+	},
+	"人群": {
+		"attraction": "上海外滩",
+		"en": "Crowd",
+		"tag": "人群",
+		"zh": "人群"
+	},
+	"残疾人": {
+		"attraction": "上海当代艺术博物馆",
+		"en": "Disabled",
+		"tag": "残疾人",
+		"zh": "残疾人"
+	},
+	"验光师": {
+		"attraction": "上海长风海洋世界",
+		"en": "Optometrist",
+		"tag": "验光师",
+		"zh": "验光师"
+	},
+	"皱纹": {
+		"attraction": "上海野生动物园",
+		"en": "Wrinkle",
+		"tag": "皱纹",
+		"zh": "皱纹"
+	},
+	"调酒师": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Bartender",
+		"tag": "调酒师",
+		"zh": "调酒师"
+	},
+	"警察": {
+		"attraction": "上海城隍庙",
+		"en": "Police",
+		"tag": "警察",
+		"zh": "警察"
+	},
+	"机械工人": {
+		"attraction": "上海城隍庙",
+		"en": "Machinist",
+		"tag": "机械工人",
+		"zh": "机械工人"
+	},
+	"锁匠": {
+		"attraction": "上海外滩",
+		"en": "Locksmith",
+		"tag": "锁匠",
+		"zh": "锁匠"
+	},
+	"卷发": {
+		"attraction": "上海人民广场",
+		"en": "Curly hair",
+		"tag": "卷发",
+		"zh": "卷发"
+	},
+	"卒子": {
+		"attraction": "上海野生动物园",
+		"en": "Pawns",
+		"tag": "卒子",
+		"zh": "卒子"
+	},
+	"环保人士": {
+		"attraction": "上海朱家角古镇",
+		"en": "Environmentalists",
+		"tag": "环保人士",
+		"zh": "环保人士"
+	},
+	"双胞胎": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Horse hooves",
+		"tag": "双胞胎",
+		"zh": "双胞胎"
+	},
+	"红军": {
+		"attraction": "上海人民广场",
+		"en": "The red army",
+		"tag": "红军",
+		"zh": "红军"
+	},
+	"修理工": {
+		"attraction": "上海欢乐谷",
+		"en": "Repairman",
+		"tag": "修理工",
+		"zh": "修理工"
+	},
+	"发牌人": {
+		"attraction": "上海朱家角古镇",
+		"en": "Dealer",
+		"tag": "发牌人",
+		"zh": "发牌人"
+	},
+	"泥瓦匠": {
+		"attraction": "上海龙华寺",
+		"en": "Mason",
+		"tag": "泥瓦匠",
+		"zh": "泥瓦匠"
+	},
+	"仅儿童": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Only children",
+		"tag": "仅儿童",
+		"zh": "仅儿童"
+	},
+	"骑军": {
+		"attraction": "上海外滩",
+		"en": "Cavalry",
+		"tag": "骑军",
+		"zh": "骑军"
+	},
+	"陶工": {
+		"attraction": "上海中华艺术宫",
+		"en": "Potter",
+		"tag": "陶工",
+		"zh": "陶工"
+	},
+	"胎儿": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Fetus",
+		"tag": "胎儿",
+		"zh": "胎儿"
+	},
+	"头部": {
+		"attraction": "上海城隍庙",
+		"en": "Head",
+		"tag": "头部",
+		"zh": "头部"
+	},
+	"婴儿": {
+		"attraction": "上海野生动物园",
+		"en": "Baby",
+		"tag": "婴儿",
+		"zh": "婴儿"
+	},
+	"药剂师": {
+		"attraction": "上海思南路",
+		"en": "Pharmacist",
+		"tag": "药剂师",
+		"zh": "药剂师"
+	},
+	"消防员": {
+		"attraction": "上海龙华寺",
+		"en": "Fireman",
+		"tag": "消防员",
+		"zh": "消防员"
+	},
+	"市民": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "A citizen",
+		"tag": "市民",
+		"zh": "市民"
+	},
+	"男招待": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Bartender",
+		"tag": "男招待",
+		"zh": "男招待"
+	},
+	"球僮": {
+		"attraction": "上海长风海洋世界",
+		"en": "Caddy",
+		"tag": "球僮",
+		"zh": "球僮"
+	},
+	"司机": {
+		"attraction": "上海静安寺",
+		"en": "Driver",
+		"tag": "司机",
+		"zh": "司机"
+	},
+	"武士": {
+		"attraction": "上海杜莎夫人蜡像馆",
+		"en": "Warrior",
+		"tag": "武士",
+		"zh": "武士"
+	},
+	"钢琴师": {
+		"attraction": "上海崇明岛",
+		"en": "Pianist",
+		"tag": "钢琴师",
+		"zh": "钢琴师"
+	},
+	"建筑工人": {
+		"attraction": "上海朱家角古镇",
+		"en": "Construction worker",
+		"tag": "建筑工人",
+		"zh": "建筑工人"
+	},
+	"医生": {
+		"attraction": "上海外滩",
+		"en": "Doctor",
+		"tag": "医生",
+		"zh": "医生"
+	},
+	"学龄前儿童": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Preschool children",
+		"tag": "学龄前儿童",
+		"zh": "学龄前儿童"
+	},
+	"宇航员": {
+		"attraction": "上海龙华寺",
+		"en": "Astronaut",
+		"tag": "宇航员",
+		"zh": "宇航员"
+	},
+	"兽医": {
+		"attraction": "上海豫园",
+		"en": "Veterinary",
+		"tag": "兽医",
+		"zh": "兽医"
+	},
+	"五个人": {
+		"attraction": "上海长风海洋世界",
+		"en": "Five people",
+		"tag": "五个人",
+		"zh": "五个人"
+	},
+	"教徒": {
+		"attraction": "上海朱家角古镇",
+		"en": "Pagan",
+		"tag": "教徒",
+		"zh": "教徒"
+	},
+	"收银员": {
+		"attraction": "上海田子坊",
+		"en": "Cashier",
+		"tag": "收银员",
+		"zh": "收银员"
+	},
+	"秦始皇": {
+		"attraction": "上海野生动物园",
+		"en": "First emperor of qin",
+		"tag": "秦始皇",
+		"zh": "秦始皇"
+	},
+	"人种": {
+		"attraction": "上海豫园",
+		"en": "Race",
+		"tag": "人种",
+		"zh": "人种"
+	},
+	"接待员": {
+		"attraction": "上海思南路",
+		"en": "Receptionist",
+		"tag": "接待员",
+		"zh": "接待员"
+	},
+	"图表设计师": {
+		"attraction": "上海外滩",
+		"en": "Graphic designer",
+		"tag": "图表设计师",
+		"zh": "图表设计师"
+	},
+	"女孩": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Girl",
+		"tag": "女孩",
+		"zh": "女孩"
+	},
+	"电工": {
+		"attraction": "上海外滩",
+		"en": "Electrician",
+		"tag": "电工",
+		"zh": "电工"
+	},
+	"猎人": {
+		"attraction": "上海思南路",
+		"en": "Hunter",
+		"tag": "猎人",
+		"zh": "猎人"
+	},
+	"理发师": {
+		"attraction": "上海田子坊",
+		"en": "Barber",
+		"tag": "理发师",
+		"zh": "理发师"
+	},
+	"仅男性": {
+		"attraction": "上海野生动物园",
+		"en": "Only male",
+		"tag": "仅男性",
+		"zh": "仅男性"
+	},
+	"新娘": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Bride",
+		"tag": "新娘",
+		"zh": "新娘"
+	},
+	"双人": {
+		"attraction": "上海崇明岛",
+		"en": "Double man",
+		"tag": "双人",
+		"zh": "双人"
+	},
+	"主持人": {
+		"attraction": "上海世博会博物馆",
+		"en": "Host",
+		"tag": "主持人",
+		"zh": "主持人"
+	},
+	"年轻人": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Young people",
+		"tag": "年轻人",
+		"zh": "年轻人"
+	},
+	"居民": {
+		"attraction": "上海欢乐谷",
+		"en": "Resident",
+		"tag": "居民",
+		"zh": "居民"
+	},
+	"雅典娜": {
+		"attraction": "上海南京路步行街",
+		"en": "Athena",
+		"tag": "雅典娜",
+		"zh": "雅典娜"
+	},
+	"老年人": {
+		"attraction": "上海静安寺",
+		"en": "Aged",
+		"tag": "老年人",
+		"zh": "老年人"
+	},
+	"娃娃": {
+		"attraction": "上海迪士尼乐园",
+		"en": "A doll",
+		"tag": "娃娃",
+		"zh": "娃娃"
+	},
+	"灰发": {
+		"attraction": "上海思南路",
+		"en": "Grey hair",
+		"tag": "灰发",
+		"zh": "灰发"
+	},
+	"男人": {
+		"attraction": "上海外滩",
+		"en": "Man",
+		"tag": "男人",
+		"zh": "男人"
+	},
+	"工程师": {
+		"attraction": "上海当代艺术博物馆",
+		"en": "Engineer",
+		"tag": "工程师",
+		"zh": "工程师"
+	},
+	"裁缝": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Tailor",
+		"tag": "裁缝",
+		"zh": "裁缝"
+	},
+	"铁匠": {
+		"attraction": "上海长风海洋世界",
+		"en": "Blacksmith",
+		"tag": "铁匠",
+		"zh": "铁匠"
+	},
+	"法官": {
+		"attraction": "上海外滩",
+		"en": "Judge",
+		"tag": "法官",
+		"zh": "法官"
+	},
+	"渔民": {
+		"attraction": "上海欢乐谷",
+		"en": "Fisherman",
+		"tag": "渔民",
+		"zh": "渔民"
+	},
+	"学生": {
+		"attraction": "上海豫园",
+		"en": "Student",
+		"tag": "学生",
+		"zh": "学生"
+	},
+	"军人": {
+		"attraction": "上海外滩",
+		"en": "Soldier",
+		"tag": "军人",
+		"zh": "军人"
+	},
+	"船长": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Captain",
+		"tag": "船长",
+		"zh": "船长"
+	},
+	"孔子": {
+		"attraction": "上海静安寺",
+		"en": "Confucius",
+		"tag": "孔子",
+		"zh": "孔子"
+	},
+	"花卉商": {
+		"attraction": "上海欢乐谷",
+		"en": "Floriculture",
+		"tag": "花卉商",
+		"zh": "花卉商"
+	},
+	"乞丐": {
+		"attraction": "上海思南路",
+		"en": "Beggar",
+		"tag": "乞丐",
+		"zh": "乞丐"
+	},
+	"工人": {
+		"attraction": "上海当代艺术博物馆",
+		"en": "Worker",
+		"tag": "工人",
+		"zh": "工人"
+	},
+	"摄影师": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Photographer",
+		"tag": "摄影师",
+		"zh": "摄影师"
+	},
+	"足球运动员": {
+		"attraction": "上海世博会博物馆",
+		"en": "Football player",
+		"tag": "足球运动员",
+		"zh": "足球运动员"
+	},
+	"牧民": {
+		"attraction": "上海欢乐谷",
+		"en": "Herdsman",
+		"tag": "牧民",
+		"zh": "牧民"
+	},
+	"圣母玛利亚": {
+		"attraction": "上海城隍庙",
+		"en": "Maria the virgin mary",
+		"tag": "圣母玛利亚",
+		"zh": "圣母玛利亚"
+	},
+	"观众": {
+		"attraction": "上海城隍庙",
+		"en": "Audience",
+		"tag": "观众",
+		"zh": "观众"
+	},
+	"教练": {
+		"attraction": "上海南京路步行街",
+		"en": "Coach",
+		"tag": "教练",
+		"zh": "教练"
+	},
+	"绵羊牧人": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Sheep shepherd",
+		"tag": "绵羊牧人",
+		"zh": "绵羊牧人"
+	},
+	"儿童": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Children",
+		"tag": "儿童",
+		"zh": "儿童"
+	},
+	"圣诞老人": {
+		"attraction": "上海城隍庙",
+		"en": "Santa claus",
+		"tag": "圣诞老人",
+		"zh": "圣诞老人"
+	},
+	"守门员": {
+		"attraction": "上海朱家角古镇",
+		"en": "Goalkeeper",
+		"tag": "守门员",
+		"zh": "守门员"
+	},
+	"裁判": {
+		"attraction": "上海人民广场",
+		"en": "Referee",
+		"tag": "裁判",
+		"zh": "裁判"
+	},
+	"咖啡师": {
+		"attraction": "上海陆家嘴",
+		"en": "Coffee maker",
+		"tag": "咖啡师",
+		"zh": "咖啡师"
+	},
+	"艺术家": {
+		"attraction": "上海当代艺术博物馆",
+		"en": "Artist",
+		"tag": "艺术家",
+		"zh": "艺术家"
+	},
+	"美容师": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Beautician",
+		"tag": "美容师",
+		"zh": "美容师"
+	},
+	"神父": {
+		"attraction": "上海静安寺",
+		"en": "Priest",
+		"tag": "神父",
+		"zh": "神父"
+	},
+	"老年男人": {
+		"attraction": "上海城隍庙",
+		"en": "Old man",
+		"tag": "老年男人",
+		"zh": "老年男人"
+	},
+	"病人": {
+		"attraction": "上海中华艺术宫",
+		"en": "Patient",
+		"tag": "病人",
+		"zh": "病人"
+	},
+	"新闻记者": {
+		"attraction": "上海长风海洋世界",
+		"en": "Reporter",
+		"tag": "新闻记者",
+		"zh": "新闻记者"
+	},
+	"合唱团": {
+		"attraction": "上海豫园",
+		"en": "Choir",
+		"tag": "合唱团",
+		"zh": "合唱团"
+	},
+	"救生员": {
+		"attraction": "上海欢乐谷",
+		"en": "Lifeguard",
+		"tag": "救生员",
+		"zh": "救生员"
+	},
+	"仅男孩": {
+		"attraction": "上海长风海洋世界",
+		"en": "Only boy",
+		"tag": "仅男孩",
+		"zh": "仅男孩"
+	},
+	"金色头发": {
+		"attraction": "上海杜莎夫人蜡像馆",
+		"en": "Blond hair",
+		"tag": "金色头发",
+		"zh": "金色头发"
+	},
+	"飞行员": {
+		"attraction": "上海豫园",
+		"en": "Pilot",
+		"tag": "飞行员",
+		"zh": "飞行员"
+	},
+	"四个人": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Four people",
+		"tag": "四个人",
+		"zh": "四个人"
+	},
+	"运动员": {
+		"attraction": "上海外滩",
+		"en": "Athletes",
+		"tag": "运动员",
+		"zh": "运动员"
+	},
+	"小提琴手": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Violinist",
+		"tag": "小提琴手",
+		"zh": "小提琴手"
+	},
+	"中医": {
+		"attraction": "上海豫园",
+		"en": "Chinese medicine",
+		"tag": "中医",
+		"zh": "中医"
+	},
+	"二人": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Two people",
+		"tag": "二人",
+		"zh": "二人"
+	},
+	"红色头发": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Red hair",
+		"tag": "红色头发",
+		"zh": "红色头发"
+	},
+	"仅女性": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Only women",
+		"tag": "仅女性",
+		"zh": "仅女性"
+	},
+	"女人": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Woman",
+		"tag": "女人",
+		"zh": "女人"
+	},
+	"杂技演员": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Acrobat",
+		"tag": "杂技演员",
+		"zh": "杂技演员"
+	},
+	"女医生": {
+		"attraction": "上海外滩",
+		"en": "A woman doctor",
+		"tag": "女医生",
+		"zh": "女医生"
+	},
+	"木工": {
+		"attraction": "上海人民广场",
+		"en": "Carpentry",
+		"tag": "木工",
+		"zh": "木工"
+	},
+	"管道工": {
+		"attraction": "上海野生动物园",
+		"en": "A plumber",
+		"tag": "管道工",
+		"zh": "管道工"
+	},
+	"舞者": {
+		"attraction": "上海朱家角古镇",
+		"en": "Dancer",
+		"tag": "舞者",
+		"zh": "舞者"
+	},
+	"导游": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Guide",
+		"tag": "导游",
+		"zh": "导游"
+	},
+	"三个人": {
+		"attraction": "上海外滩",
+		"en": "Three people",
+		"tag": "三个人",
+		"zh": "三个人"
+	},
+	"女仆": {
+		"attraction": "上海静安寺",
+		"en": "Maid",
+		"tag": "女仆",
+		"zh": "女仆"
+	},
+	"吉他手": {
+		"attraction": "上海中华艺术宫",
+		"en": "Guitarist",
+		"tag": "吉他手",
+		"zh": "吉他手"
+	},
+	"油漆工": {
+		"attraction": "上海豫园",
+		"en": "Painter",
+		"tag": "油漆工",
+		"zh": "油漆工"
+	},
+	"教师": {
+		"attraction": "上海世博会博物馆",
+		"en": "Teacher",
+		"tag": "教师",
+		"zh": "教师"
+	},
+	"主厨": {
+		"attraction": "上海龙华寺",
+		"en": "Chef",
+		"tag": "主厨",
+		"zh": "主厨"
+	},
+	"矿工": {
+		"attraction": "上海外滩",
+		"en": "Miner",
+		"tag": "矿工",
+		"zh": "矿工"
+	},
+	"搬运工": {
+		"attraction": "上海野生动物园",
+		"en": "Hamal",
+		"tag": "搬运工",
+		"zh": "搬运工"
+	},
+	"烘烤师": {
+		"attraction": "上海龙华寺",
+		"en": "Roast",
+		"tag": "烘烤师",
+		"zh": "烘烤师"
+	},
+	"护士": {
+		"attraction": "上海外滩",
+		"en": "Nurse",
+		"tag": "护士",
+		"zh": "护士"
+	},
+	"篮球运动员": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Basketball players",
+		"tag": "篮球运动员",
+		"zh": "篮球运动员"
+	},
+	"工匠": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Craftsman",
+		"tag": "工匠",
+		"zh": "工匠"
+	},
+	"律师": {
+		"attraction": "上海欢乐谷",
+		"en": "Lawyer",
+		"tag": "律师",
+		"zh": "律师"
+	},
+	"赌徒": {
+		"attraction": "上海新天地",
+		"en": "Gambler",
+		"tag": "赌徒",
+		"zh": "赌徒"
+	},
+	"用餐者": {
+		"attraction": "上海迪士尼乐园",
+		"en": "Diner",
+		"tag": "用餐者",
+		"zh": "用餐者"
+	},
+	"消费者": {
+		"attraction": "上海思南路",
+		"en": "Consumer",
+		"tag": "消费者",
+		"zh": "消费者"
+	},
+	"儿科医师": {
+		"attraction": "上海新天地",
+		"en": "Pediatrician",
+		"tag": "儿科医师",
+		"zh": "儿科医师"
+	},
+	"勘测人员": {
+		"attraction": "上海外滩",
+		"en": "Surveyor",
+		"tag": "勘测人员",
+		"zh": "勘测人员"
+	},
+	"佛像": {
+		"attraction": "上海城隍庙",
+		"en": "Buddha statue",
+		"tag": "佛像",
+		"zh": "佛像"
+	},
+	"秃头": {
+		"attraction": "上海新天地",
+		"en": "Bald",
+		"tag": "秃头",
+		"zh": "秃头"
+	},
+	"设计者": {
+		"attraction": "上海陆家嘴",
+		"en": "Designer",
+		"tag": "设计者",
+		"zh": "设计者"
+	},
+	"战士": {
+		"attraction": "上海思南路",
+		"en": "Warrior",
+		"tag": "战士",
+		"zh": "战士"
+	},
+	"士兵": {
+		"attraction": "上海欢乐谷",
+		"en": "Rank-and-file soldiers",
+		"tag": "士兵",
+		"zh": "士兵"
+	},
+	"仅一名男孩": {
+		"attraction": "上海野生动物园",
+		"en": "Only one boy",
+		"tag": "仅一名男孩",
+		"zh": "仅一名男孩"
+	},
+	"天篷": {
+		"attraction": "上海外滩",
+		"en": "Canopy",
+		"tag": "天篷",
+		"zh": "天篷"
+	},
+	"无法辨认的人": {
+		"attraction": "上海外滩",
+		"en": "Unrecognizable person",
+		"tag": "无法辨认的人",
+		"zh": "无法辨认的人"
+	},
+	"擦皮鞋的人": {
+		"attraction": "上海欢乐谷",
+		"en": "Shoeshine",
+		"tag": "擦皮鞋的人",
+		"zh": "擦皮鞋的人"
+	},
+	"小丑": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Clown",
+		"tag": "小丑",
+		"zh": "小丑"
+	},
+	"军队": {
+		"attraction": "上海朱家角古镇",
+		"en": "Army",
+		"tag": "军队",
+		"zh": "军队"
+	},
+	"狙击手": {
+		"attraction": "上海东方明珠广播电视塔",
+		"en": "Sniper",
+		"tag": "狙击手",
+		"zh": "狙击手"
+	},
+	"伐木工人": {
+		"attraction": "上海静安寺",
+		"en": "Logger",
+		"tag": "伐木工人",
+		"zh": "伐木工人"
+	},
+	"图书馆管理员": {
+		"attraction": "上海外滩",
+		"en": "Librarian",
+		"tag": "图书馆管理员",
+		"zh": "图书馆管理员"
+	},
+	"白发": {
+		"attraction": "上海龙华寺",
+		"en": "White hair",
+		"tag": "白发",
+		"zh": "白发"
+	},
+	"群众": {
+		"attraction": "上海外滩",
+		"en": "The masses",
+		"tag": "群众",
+		"zh": "群众"
+	},
+	"一个人": {
+		"attraction": "上海静安寺",
+		"en": "Single",
+		"tag": "一个人",
+		"zh": "一个人"
+	},
+	"行人": {
+		"attraction": "上海静安寺",
+		"en": "Pedestrian",
+		"tag": "行人",
+		"zh": "行人"
+	},
+	"农民": {
+		"attraction": "上海豫园",
+		"en": "A farmer",
+		"tag": "农民",
+		"zh": "农民"
+	}
+}

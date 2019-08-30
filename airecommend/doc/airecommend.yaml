@@ -1,0 +1,117 @@
+openapi: 3.0.1
+info:
+  description: AiRecommend Service
+  version: 1.0.0
+  title: AiRecommend
+externalDocs:
+  description: Find out more about AiRecommend Service
+  url: 'https://github.com/servicestage-demo/weathermap'
+tags:
+  - name: AiRecommend
+paths:
+  /airecommend/attractions:
+    post:
+      tags:
+        - AiRecommend
+      summary: recommend attractions from an image
+      description: ''
+      operationId: recommendAttractions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Image'
+            example:
+              image: /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAkGBggGBQkIBwgKCQkKDRY
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AttractionRecognition'
+              example:
+                cities:
+                  - name: 外滩
+                    city: 上海
+                    city_location: shanghai, cn
+                    title: 上海外滩
+                    intro: 外滩是近代上海城市的起点，也收录着整座城市的精华。
+                    intro_images:
+                      - https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/外滩/1.jpg
+                      - https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/外滩/2.jpg
+                      - https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/外滩/3.jpg
+                    desc: 上海十里洋场的真实写照，也是旧上海租界区以及整个上海近代城市开始的起点。
+                    desc_images:
+                      - https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/外滩/4.jpg
+                      - https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/外滩/5.jpg
+                tags:
+                  - confidence: '90.97'
+                    tag: 证件照
+                  - confidence: '76.83'
+                    tag: 商务
+        '400':
+          description: Invalid status value
+components:
+  schemas:
+    Image:
+      type: object
+      properties:
+        image:
+          type: string
+          description: image base64 encode
+      required:
+        - image
+    AttractionRecognition:
+      type: object
+      properties:
+        attractions:
+          type: array
+          description: the recommend attractions
+          items:
+            $ref: '#/components/schemas/RecommendAttraction'
+        tags:
+          type: array
+          description: the images tags
+          items:
+            $ref: '#/components/schemas/ImageTagItem'
+    RecommendAttraction:
+      type: object
+      properties:
+        name:
+          type: string
+          description: attraction name
+        city:
+          type: string
+          description: city name
+        city_location:
+          type: string
+          description: city location
+        title:
+          type: string
+          description: attraction title
+        intro:
+          type: string
+          description: attraction intro
+        intro_images:
+          type: array
+          description: attraction intro image urls
+          items:
+            type: string
+        desc:
+          type: string
+          description: attraction description
+        desc_images:
+          type: array
+          description: attraction description image urls
+          items:
+            type: string
+    ImageTagItem:
+      type: object
+      properties:
+        confidence:
+          type: string
+          description: confidence
+        tag:
+          type: string
+          description: tag name

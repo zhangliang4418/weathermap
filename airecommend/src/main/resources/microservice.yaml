@@ -1,7 +1,7 @@
 APPLICATION_ID: weathermap
 service_description:
-  name: fusionweather
-  version: 0.0.4
+  name: airecommend
+  version: 0.0.2
   properties:
     allowCrossApp: false
 cse:
@@ -19,15 +19,13 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-    address: 0.0.0.0:13092
-  request:
-    timeout: 3000
+    address: 0.0.0.0:13096
   handler:
     chain:
       Provider:
         default: qps-flowcontrol-provider,bizkeeper-provider
       Consumer:
-        default: qps-flowcontrol-consumer,loadbalance,bizkeeper-consumer,fault-injection-consumer,auth-consumer
+        default: qps-flowcontrol-consumer,loadbalance,fault-injection-consumer,bizkeeper-consumer
   accesslog:
     enabled: true
     pattern: "%h %{dd/MMM/yyyy:HH:mm:ss.SSSZ|GMT+0008|en_US}t %r %s %B %D"
@@ -36,13 +34,5 @@ cse:
 #    secretKey: yoursk
 #    akskCustomCipher: default
 #    project: cn-north-1
-#addressResolver:    ## If failed with unable to resolve domain name in windows, you can resolve it by set addressResolver.
+#addressResolver:   ## If failed with unable to resolve domain name in windows, you can resolve it by set addressResolver.
 #  servers: 8.8.8.8
-
-# avoid conflict with black list
-servicecomb:
-  service:
-    registry:
-      instance:
-        empty:
-          protection: false

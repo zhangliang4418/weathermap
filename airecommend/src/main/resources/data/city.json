@@ -1,0 +1,542 @@
+{
+	"haikou": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海口/10.jpg"
+		],
+		"city": "haikou, cn",
+		"en": "haikou",
+		"zh": "海口",
+		"desc": "海口市处于热带滨海，热带资源呈现多样性，富于海滨自然特色风光景观。海南建省办经济特区，海口市成为海南省省会，全省政治、经济、科技、文化中心，交通邮电枢纽。"
+	},
+	"taipei": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/台北/10.jpg"
+		],
+		"city": "taipei, cn",
+		"en": "taipei",
+		"zh": "台北",
+		"desc": "台北是台湾省的六个“直辖市”之一，也是全台湾地区的政治、经济、文化、旅游、工商业与传播中心，仅次于新北市的第二大城市。全市下辖12个区，总面积271.8平方公里，2014年总人口270.1571万人，居台湾第四位，人口密度居台湾第二位。"
+	},
+	"weihai": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/威海/10.jpg"
+		],
+		"city": "weihai, cn",
+		"en": "weihai",
+		"zh": "威海",
+		"desc": "威海别名威海卫，意为威震海疆。威海是中国大陆距离日本、韩国最近的城市、中国近代第一支海军北洋海军的发源地、甲午海战的发生地，甲午战争后被列强侵占并回归祖国的“七子”之一。"
+	},
+	"haimen": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/海门/10.jpg"
+		],
+		"city": "haimen, cn",
+		"en": "haimen",
+		"zh": "海门",
+		"desc": "江苏省海门市地处黄海之滨，位于长江和沿海两大开放带的交汇点上，东临黄海，南依长江，是中国黄金水道与黄金海岸“T”字型的结合点。与国际大都市上海隔江相望，西靠港口城市南通，北倚广袤的江海平原，素有“江海门户”之称"
+	},
+	"dalian": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/大连/10.jpg"
+		],
+		"city": "dalian, cn",
+		"en": "dalian",
+		"zh": "大连",
+		"desc": "大连，位于欧亚大陆东岸，中国东北辽东半岛最南端，西北濒临渤海，东南面向黄海，有包括大小岛屿260个。是中国的副省级城市、计划单列市，也是全国14个沿海开放城市之一；是中国辽宁省的一个重要沿海港口城市，省内第二大城市，是中国东北主要的对外门户；也是东北亚重要的国际航运中心、国际物流中心、区域性金融中心。"
+	},
+	"yinchuan": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/银川/10.jpg"
+		],
+		"city": "yinchuan, cn",
+		"en": "yinchuan",
+		"zh": "银川",
+		"desc": "银川是历史悠久的塞上古城，史上西夏王朝的首都，是国家历史文化名城，民间传说中又称“凤凰城”，古称“兴庆府”、“宁夏城”，素有“塞上江南、鱼米之乡”和“塞上明珠”的美誉，城西有著名的国家级风景区西夏王陵。"
+	},
+	"harbin": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/哈尔滨/10.jpg"
+		],
+		"city": "harbin, cn",
+		"en": "harbin",
+		"zh": "哈尔滨",
+		"desc": "哈尔滨地处东北亚中心地带，被誉为欧亚大陆桥的明珠，是第一条欧亚大陆桥和空中走廊的重要枢纽，也是中国著名的历史文化名城、热点旅游城市和国际冰雪文化名城。"
+	},
+	"beijing": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北京/10.jpg"
+		],
+		"city": "beijing, cn",
+		"en": "beijing",
+		"zh": "北京",
+		"desc": "北京位于华北平原北端，东南局部地区与天津相连，其余为河北省所环绕。北京有3000余年建城史和850余年建都史，是全球拥有世界文化遗产最多的城市。北京荟萃了自元明清以来的中华文化，拥有众多名胜古迹和人文景观。北京迎接每年超过1亿4700万的旅客。此外，现在的美国和古代中国也有许多城市定名北京。"
+	},
+	"zhongqing": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/重庆/10.jpg"
+		],
+		"city": "zhongqing, cn",
+		"en": "zhongqing",
+		"zh": "重庆",
+		"desc": "重庆，简称：渝。座落于长江与嘉陵江交汇处，四面环山，两江环绕。城市依山傍水，风光秀丽。既以江城闻名，又以山城著称。每当夜幕降临，登高远眺，万家灯火，江面波光粼粼，其风景不逊维多利亚港湾。 拥有三千年悠久历史的重庆，旅游资源丰富。既有山水泉瀑洞的自.."
+	},
+	"tianshui": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/天水/10.jpg"
+		],
+		"city": "tianshui, cn",
+		"en": "tianshui",
+		"zh": "天水",
+		"desc": "天水位于甘肃东南部，自古是丝绸之路必经之地和兵家必争之地，全市横跨长江、黄河两大流域，新欧亚大陆桥横贯全境。至2013年天水辖武山、甘谷、秦安、清水、张家川回族自治县五县和秦州、麦积两区。"
+	},
+	"suzhou": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/苏州/10.jpg"
+		],
+		"city": "suzhou, cn",
+		"en": "suzhou",
+		"zh": "苏州",
+		"desc": "苏州位于太湖之滨，长江南岸的入海口处，京沪铁路、京沪高铁（在建）和多条高速公路贯穿全境。苏州东邻上海，濒临东海；西抱太湖，背靠无锡，隔湖遥望常州；南临浙江，与嘉兴接壤，所辖太湖水面紧邻湖州；东北枕长江，东距上海市区80千米。是江苏省的东南门户，上海的咽喉，苏中和苏北通往浙江的必经之地。 "
+	},
+	"guilin": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/桂林/10.jpg"
+		],
+		"city": "guilin, cn",
+		"en": "guilin",
+		"zh": "桂林",
+		"desc": "桂林是一个享有世界声誉的风景游览城市和历史文化名城。 远在三亿多年前，桂林沉浸在汪洋大海之中，由于地壳运动，桂林逐渐上升为陆地。后经过长期的风化、剥蚀和雨水溶蚀，发育了典型的岩溶地貌，逐渐形成了形态奇特的峰林石丛和幽深瑰丽的溶洞，并与秀丽的漓江融为一体，构成了别具一格的桂林山水，赢得了“甲天下”的美誉。"
+	},
+	"hangzhou": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/杭州/10.jpg"
+		],
+		"city": "hangzhou, cn",
+		"en": "hangzhou",
+		"zh": "杭州",
+		"desc": "杭州是浙江省省会，长江三角洲南翼中心城市，浙江省政治、经济、文化、科教中心。也是中国最著名的风景旅游城市之一，“上有天堂、下有苏杭”，表达了古往今来的人们对于这座美丽城市的由衷赞美。元朝时曾被意大利著名旅行家马可·波罗赞为“世界上最美丽华贵之城”。有着2200年的悠久历史的杭州还是我国八大古都之一，江南忆，最忆是杭州！"
+	},
+	"chengde": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/承德/10.jpg"
+		],
+		"city": "chengde, cn",
+		"en": "chengde",
+		"zh": "承德",
+		"desc": "承德，旧称“热河”，位于河北省东北部，是首批24个国家历史文化名城之一、中国十大风景名胜、旅游胜地四十佳、国家重点风景名胜区，是国家甲类开放城市。1994年位于承德市的避暑山庄及其周围寺庙被联合国教科文组织批准为世界文化遗产，从而使承德步入了世界文化名城的行列。"
+	},
+	"luoyang": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/洛阳/10.jpg"
+		],
+		"city": "luoyang, cn",
+		"en": "luoyang",
+		"zh": "洛阳",
+		"desc": "洛阳古称雒阳、豫州，位于河南西部、黄河中游，因地处洛河之阳而得名，是国务院首批公布的历史文化名城，也是中部地区重要的工业城市。 洛阳有着5000多年文明史、4000年的建城史[1] 和1500多年的建都史，先后有105位帝王在此定鼎九州。是华夏文明的发源地之一、中华民.."
+	},
+	"chengdou": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/成都/10.jpg"
+		],
+		"city": "chengdou, cn",
+		"en": "chengdou",
+		"zh": "成都",
+		"desc": "成都是“最中国文化名城”和“中国最佳旅游城市”，承载着几千年的历史，联合国教科文组织创意城市网络授予它“美食之都”称号。成都拥有2项世界遗产，2项世界预备遗产，是中国中西部拥有世界遗产项目数最多的城市，是一座有三千年左右的建城史的国家历史文化名城，拥有武侯祠、杜甫草堂、永陵、望江楼、青羊宫、文殊院、明蜀王陵、昭觉寺等众多历史名胜古迹和人文景观。"
+	},
+	"xian": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/西安/10.jpg"
+		],
+		"city": "xian, cn",
+		"en": "xian",
+		"zh": "西安",
+		"desc": "西安，古称“长安”、“镐京”，是陕西省省会，地处关中平原中部，北濒渭河，南依秦岭，八水润长安。全市下辖10区3县，总面积10108平方公里。2014年末常住人口862.75万，其中城镇人口626.44万。 长安自古帝王都，西安拥有着7000多年文明史、3100多年建城史、1100多年的.."
+	},
+	"huangshan": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/黄山/10.jpg"
+		],
+		"city": "huangshan, cn",
+		"en": "huangshan",
+		"zh": "黄山",
+		"desc": "黄山市境内汇聚丰富的自然资源与历史人文遗迹于一身，是著名的国际旅游城市，长三角城市群成员城市，国家森林城市，全球首个旅游景区类世界优秀目的地。"
+	},
+	"sanya": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/三亚/10.jpg"
+		],
+		"city": "sanya, cn",
+		"en": "sanya",
+		"zh": "三亚",
+		"desc": "三亚市是中华人民共和国海南省仅有的2个地级市之一，位于海南岛的最南端。三亚是海南著名的热带海滨旅游城市和海港。 这里集中了阳光、海滩、空气、森林、温泉、岩洞和田园等得天独厚的旅游资源，并形成了山、城、沙、海、港自然结合在一起的奇特景观，到处呈现着一派旖旎的热带海滨风光，置身其中，犹如仙家境地。被称为“东方夏威夷”的“天下第一湾”亚龙湾，享有“三亚归来不看海，除却亚龙不是湾”的美誉，炎炎夏日里，这里成了人们“避暑”和享受旅游乐趣的人间天堂。"
+	},
+	"qinhuangdao": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/秦皇岛/10.jpg"
+		],
+		"city": "qinhuangdao, cn",
+		"en": "qinhuangdao",
+		"zh": "秦皇岛",
+		"desc": "秦皇岛，位于中国河北省东北部。因公元前215年中国的第一个皇帝秦始皇东巡至此，并派人入海求仙而得名，是中国唯一一个因皇帝尊号而得名的城市。现为为河北省省辖市，中国北方著名港口城市。是2008年第29届奥运会的协办城市。"
+	},
+	"qingdao": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/青岛/10.jpg"
+		],
+		"city": "qingdao, cn",
+		"en": "qingdao",
+		"zh": "青岛",
+		"desc": "青岛市，简称青，旧称“胶澳”，别称“琴岛”、“岛城”，又被誉为“东方瑞士” ，地处山东半岛东南部沿海，胶东半岛东部，东、南濒临黄海，隔海与朝鲜半岛相望。青岛拥有国际性海港和区域性枢纽空港。青岛是山东省省辖市，计划单列市、副省级城市、山东省经济中心城市.."
+	},
+	"xingcheng": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/兴城/10.jpg"
+		],
+		"city": "xingcheng, cn",
+		"en": "xingcheng",
+		"zh": "兴城",
+		"desc": "兴城是辽宁葫芦岛市代管的县级市，是中国著名的旅游圣地，是集城、泉、山、海、岛于一体的优秀旅游城市，中国2005年全国城市魅力200强。"
+	},
+	"changchun": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/长春/10.jpg"
+		],
+		"city": "changchun, cn",
+		"en": "changchun",
+		"zh": "长春",
+		"desc": "长春市是吉林省省会，全省的政治、经济、文化和交通中心。位于北半球中纬地带，欧亚大陆东岸中文化广场上的白鸽国东北松辽平原腹地。长春是一座风光秀美的城市。作为中国首批优秀旅游城市之一，旅游开发上也形成了一定的特色。长春市是一座“森林城”，城市绿化率已经达到78%，居于亚洲大城市之冠。"
+	},
+	"beihai": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/北海/10.jpg"
+		],
+		"city": "beihai, cn",
+		"en": "beihai",
+		"zh": "北海",
+		"desc": "北海位于广西省南部，紧靠北部湾，三面环海，有涠洲、斜阳两个海岛，辖海城区、银海区、铁山港区和合浦县3区1县，是一个花园式港口城市。 北海最大的特点就是突出一个“海”字，海水、海滩、海岛、海鲜、海洋珍品、海洋运动、海洋文化都是北海的宝贵资源。北海银滩因“滩长平、沙细白、水温净、浪柔软、无鲨鱼”而被誉为“中国第一滩”。"
+	},
+	"kaifeng": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/开封/10.jpg"
+		],
+		"city": "kaifeng, cn",
+		"en": "kaifeng",
+		"zh": "开封",
+		"desc": "开封古称东京、汴京（亦有大梁、汴梁之称），简称汴，有“十朝古都”、“七朝都会”之称。开封是清明上河图的原创地，有“东京梦华”之美誉，开封是中国优秀旅游城市、全国双拥模范城、全国创建文明城市工作先进城市，也是河南省中原城市群和沿黄“三点一线”黄金旅游.."
+	},
+	"yantai": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/烟台/10.jpg"
+		],
+		"city": "yantai, cn",
+		"en": "yantai",
+		"zh": "烟台",
+		"desc": "烟台是山东省的一个下辖市，地处山东半岛中部，烟台依山傍海，气候宜人，冬无严寒，夏无酷暑，东连威海，西接潍坊，西南与青岛毗邻，北濒渤海、黄海，与辽东半岛对峙，并与大连隔海相望，共同形成拱卫首都北京的海上门户。烟台市是我国首批沿海开放城市之一，是环渤海经济圈内以及东亚地区国际性港城、商城、旅游城。"
+	},
+	"anqing": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/安庆/10.jpg"
+		],
+		"city": "anqing, cn",
+		"en": "anqing",
+		"zh": "安庆",
+		"desc": "安庆地区不仅有5A级风景名胜区天柱山，菱湖风景区、独秀园、花亭湖、巨石山、嬉子湖等国家4A级风景名胜区，还有龙眠山、大龙山、小孤山、白崖寨、鹞落坪、妙道山、浮山、薛家岗等数十处国家级风景名胜区、国家自然保护区、国家森林公园、国家地质公园或国家文物保护单位，而且是黄山、九华山、庐山等世界著名风景区之间的交通枢纽。"
+	},
+	"dujiangyan": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/都江堰/10.jpg"
+		],
+		"city": "dujiangyan, cn",
+		"en": "dujiangyan",
+		"zh": "都江堰",
+		"desc": "都江堰市是成都市下辖县级市，位于成都平原西北部，以的都江堰水利工程而得名，被誉为“天府之源”。都江堰是国际旅游名城，古老的都江堰水利工程被誉为“世界水利文化的鼻祖”；有“青城天下幽”之称的青城山，是中国道教发祥地。"
+	},
+	"lianyungang": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/连云港/10.jpg"
+		],
+		"city": "lianyungang, cn",
+		"en": "lianyungang",
+		"zh": "连云港",
+		"desc": "连云港位于位于鲁中南丘陵与淮北平原的结合部，陇海铁路终点（亚欧大陆桥东方桥头堡），东濒黄海，与朝鲜、韩国、日本隔海相望；北与山东郯城、临沭、莒南、日照等县市接壤；西与徐州新沂市、宿迁市沭阳县毗邻；南与淮安市涟水、盐城市响水2县相连。"
+	},
+	"xiamen": {
+		"urls": [
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/1.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/2.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/3.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/4.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/5.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/6.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/7.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/8.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/9.jpg",
+			"https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/旅游城市/厦门/10.jpg"
+		],
+		"city": "xiamen, cn",
+		"en": "xiamen",
+		"zh": "厦门",
+		"desc": "厦门由厦门岛、离岛鼓浪屿、西岸海沧半岛、北岸集美半岛、东岸翔安半岛、大小嶝岛、内陆同安、九龙江等组成，陆地面积1699.39平方公里，海域面积390多平方公里。厦门的主体——厦门岛南北长13.7公里，东西宽12.5公里，面积约132.5平方公里，是厦门经济特区的发祥地，岛上有厦门最早的商业和政治中心。"
+	}
+}

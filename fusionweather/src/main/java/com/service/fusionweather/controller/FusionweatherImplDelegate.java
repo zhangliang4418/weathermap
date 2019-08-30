@@ -1,16 +1,17 @@
 package com.service.fusionweather.controller;
 
+import com.service.fusionweather.entity.*;
+import org.apache.servicecomb.foundation.common.http.HttpStatus;
 import org.apache.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
 import io.vertx.core.json.Json;
+import org.apache.servicecomb.swagger.invocation.exception.CommonExceptionData;
+import org.apache.servicecomb.swagger.invocation.exception.ExceptionFactory;
+import org.apache.servicecomb.swagger.invocation.exception.InvocationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
-
-import com.service.fusionweather.entity.CurrentWeatherSummary;
-import com.service.fusionweather.entity.ForecastWeatherSummary;
-import com.service.fusionweather.entity.FusionWeatherSummary;
 
 @Component
 public class FusionweatherImplDelegate
@@ -26,6 +27,30 @@ public class FusionweatherImplDelegate
         summary.setForecastWeather(achieveForecastWeatherSummary(city));
 
         return summary;
+    }
+
+    public AttractionRecognition doRecommendAttractions(ImageTagParseRequest imageTagParseRequest) throws Exception {
+        //final String url = "http://127.0.0.1:13096/airecommend/attractions";
+        final String url = "cse://airecommend/airecommend/attractions";
+        AttractionRecognition su;
+        try {
+            Object s = invoker.postForObject(url, imageTagParseRequest, ImageTagParseRequest.class, new Object());
+            su = Json.decodeValue(Json.encode(s), AttractionRecognition.class);
+        } catch (InvocationException e) {
+            LOGGER.error("FusionweatherdataDelegate>> Failed to parse an image tag", e);
+            if (e.getCause() != null) {
+                throw ExceptionFactory.create(new HttpStatus(400, "Failed to parse an image tag."),
+                        new CommonExceptionData(e.getCause().getMessage()));
+            } else {
+                throw ExceptionFactory.create(new HttpStatus(400, "Failed to parse an image tag."),
+                        new CommonExceptionData(e.getCause().getMessage()));
+            }
+        } catch (Exception e) {
+            LOGGER.error("FusionweatherdataDelegate>> Failed to parse an image tag", e);
+            throw ExceptionFactory.create(new HttpStatus(400, "Failed to parse an image tag."),
+                    new CommonExceptionData(e.getMessage()));
+        }
+        return su;
     }
 
     private CurrentWeatherSummary achieveCurrentWeatherSummary(String city, String user)

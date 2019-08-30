@@ -21,6 +21,7 @@
 		<module>fusionweather</module>
 		<module>weather-beta</module>
 		<module>edge</module>
+		<module>airecommend</module>
 	</modules>
 
 	<build>
