@@ -3,8 +3,7 @@ package com.service.fusionweather.entity;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class CurrentWeatherSummary
-{
+public class CurrentWeatherSummary {
 
     /**
      * cityName : HaiKou
@@ -30,6 +29,8 @@ public class CurrentWeatherSummary
     private double temperature;
 
     private String image;
+
+    private String imageUrl;
 
     private long date;
 
@@ -61,199 +62,168 @@ public class CurrentWeatherSummary
 
     private long currentTime = System.currentTimeMillis();
 
-    public String getCityName()
-    {
+    public String getCityName() {
         return cityName;
     }
 
-    public void setCityName(String cityName)
-    {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 
-    public String getCountry()
-    {
+    public String getCountry() {
         return country;
     }
 
-    public void setCountry(String country)
-    {
+    public void setCountry(String country) {
         this.country = country;
     }
 
-    public double getTemperature()
-    {
+    public double getTemperature() {
         return temperature;
     }
 
-    public void setTemperature(double temperature)
-    {
+    public void setTemperature(double temperature) {
         this.temperature = temperature;
     }
 
-    public String getImage()
-    {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(String image)
-    {
+    public void setImage(String image) {
         this.image = image;
     }
 
-    public long getDate()
-    {
+    public long getDate() {
         return date;
     }
 
-    public void setDate(long date)
-    {
+    public void setDate(long date) {
         this.date = date;
     }
 
-    public String getWeather()
-    {
+    public String getWeather() {
         return weather;
     }
 
-    public void setWeather(String weather)
-    {
+    public void setWeather(String weather) {
         this.weather = weather;
     }
 
-    public double getWindSpeed()
-    {
+    public double getWindSpeed() {
         return windSpeed;
     }
 
-    public void setWindSpeed(double windSpeed)
-    {
+    public void setWindSpeed(double windSpeed) {
         this.windSpeed = windSpeed;
     }
 
-    public String getCloudiness()
-    {
+    public String getCloudiness() {
         return cloudiness;
     }
 
-    public void setCloudiness(String cloudiness)
-    {
+    public void setCloudiness(String cloudiness) {
         this.cloudiness = cloudiness;
     }
 
-    public double getCloudsDeg()
-    {
+    public double getCloudsDeg() {
         return cloudsDeg;
     }
 
-    public void setCloudsDeg(double cloudsDeg)
-    {
+    public void setCloudsDeg(double cloudsDeg) {
         this.cloudsDeg = cloudsDeg;
     }
 
-    public double getPressure()
-    {
+    public double getPressure() {
         return pressure;
     }
 
-    public void setPressure(double pressure)
-    {
+    public void setPressure(double pressure) {
         this.pressure = pressure;
     }
 
-    public double getHumidity()
-    {
+    public double getHumidity() {
         return humidity;
     }
 
-    public void setHumidity(double humidity)
-    {
+    public void setHumidity(double humidity) {
         this.humidity = humidity;
     }
 
-    public long getSunrise()
-    {
+    public long getSunrise() {
         return sunrise;
     }
 
-    public void setSunrise(long sunrise)
-    {
+    public void setSunrise(long sunrise) {
         this.sunrise = sunrise;
     }
 
-    public long getSunset()
-    {
+    public long getSunset() {
         return sunset;
     }
 
-    public void setSunset(long sunset)
-    {
+    public void setSunset(long sunset) {
         this.sunset = sunset;
     }
 
-    public double getCoordinatesLat()
-    {
+    public double getCoordinatesLat() {
         return coordinatesLat;
     }
 
-    public void setCoordinatesLat(double coordinatesLat)
-    {
+    public void setCoordinatesLat(double coordinatesLat) {
         this.coordinatesLat = coordinatesLat;
     }
 
-    public double getCoordinatesLon()
-    {
+    public double getCoordinatesLon() {
         return coordinatesLon;
     }
 
-    public void setCoordinatesLon(double coordinatesLon)
-    {
+    public void setCoordinatesLon(double coordinatesLon) {
         this.coordinatesLon = coordinatesLon;
     }
 
-    public long getUviDate()
-    {
+    public long getUviDate() {
         return uviDate;
     }
 
-    public void setUviDate(long uviDate)
-    {
+    public void setUviDate(long uviDate) {
         this.uviDate = uviDate;
     }
 
-    public String getUviDateISO()
-    {
+    public String getUviDateISO() {
         return uviDateISO;
     }
 
-    public void setUviDateISO(String uviDateISO)
-    {
+    public void setUviDateISO(String uviDateISO) {
         this.uviDateISO = uviDateISO;
     }
 
-    public double getUviValue()
-    {
+    public double getUviValue() {
         return uviValue;
     }
 
-    public void setUviValue(double uviValue)
-    {
+    public void setUviValue(double uviValue) {
         this.uviValue = uviValue;
     }
 
-    public long getCurrentTime()
-    {
+    public long getCurrentTime() {
         return currentTime;
     }
 
-    public void setCurrentTime(long currentTime)
-    {
+    public void setCurrentTime(long currentTime) {
         this.currentTime = currentTime;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "CurrentWeatherSummary{" +
                 "cityName='" + cityName + '\'' +
                 ", country='" + country + '\'' +

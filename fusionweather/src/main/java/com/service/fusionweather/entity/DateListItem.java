@@ -6,6 +6,8 @@ public class DateListItem
 
     private String image;
 
+    private String imageUrl;
+
     private String dateTxt;
 
     private double temperatureMax;
@@ -144,5 +146,13 @@ public class DateListItem
     public void setRain3h(double rain3h)
     {
         this.rain3h = rain3h;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
