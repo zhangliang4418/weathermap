@@ -3,14 +3,16 @@ package com.service.airecommend.entity;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.List;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TagReference {
 
     @JsonProperty("tag")
     private String tag;
 
-    @JsonProperty("attraction")
-    private String attraction;
+    @JsonProperty("attractions")
+    private List<String> attractions;
 
     @JsonProperty("en")
     private String en;
@@ -26,12 +28,12 @@ public class TagReference {
         this.tag = tag;
     }
 
-    public String getAttraction() {
-        return attraction;
+    public List<String> getAttractions() {
+        return attractions;
     }
 
-    public void setAttraction(String attraction) {
-        this.attraction = attraction;
+    public void setAttractions(List<String> attractions) {
+        this.attractions = attractions;
     }
 
     public String getEn() {

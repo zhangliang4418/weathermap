@@ -1,14 +1,17 @@
 package com.service.airecommend.controller;
 
-import com.service.airecommend.entity.*;
+import com.service.airecommend.entity.AttractionRecognition;
+import com.service.airecommend.entity.ImageTag;
+import com.service.airecommend.entity.ImageTagDeclaration;
+import com.service.airecommend.entity.RecommendAttraction;
 import com.service.airecommend.util.HwsAiService;
 import com.service.airecommend.util.PresetDataStorage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 @Component
 public class AiRecommendImplDelegate {
@@ -20,25 +23,25 @@ public class AiRecommendImplDelegate {
     private PresetDataStorage presetDataStorage;
 
     public AttractionRecognition doRecommendAttractions(ImageTagDeclaration imageTagDeclaration) {
-        ImageTag tag = hwsAiService.imageTagging(imageTagDeclaration);
         AttractionRecognition recognition = new AttractionRecognition();
-        if (tag.getResult() != null && tag.getResult().getTags() != null) {
-            Set<RecommendAttraction> rcSet = new HashSet<RecommendAttraction>();
-            for (ImageTag.ImageTagItem itItem : tag.getResult().getTags()) {
-                TagReference tagReference = presetDataStorage.getDataTagRef(itItem.getTag());
-                if (tagReference == null) {
-                    continue;
-                }
-                RecommendAttraction rc = presetDataStorage.getDataRecommendAttraction(tagReference.getAttraction());
-                if (rc == null) {
-                    continue;
-                }
-                rcSet.add(rc);
-            }
 
-            recognition.setAttractions(new ArrayList<RecommendAttraction>(rcSet));
+        ImageTag tag = hwsAiService.imageTagging(imageTagDeclaration);
+
+        if (tag.getResult() != null && tag.getResult().getTags() != null) {
+            List<RecommendAttraction> rcSet = tag.getResult().getTags()
+                    .stream()
+                    .map(el -> presetDataStorage.getDataTagRef(el.getTag()))
+                    .filter(el -> el != null && el.getAttractions() != null)
+                    .flatMap(el -> el.getAttractions().stream())
+                    .distinct()
+                    .map(presetDataStorage::getDataRecommendAttraction)
+                    .filter(Objects::nonNull)
+                    .collect(Collectors.toList());
+
+            recognition.setAttractions(rcSet);
             recognition.setTags(tag.getResult().getTags());
         }
+
         return recognition;
     }
 }
