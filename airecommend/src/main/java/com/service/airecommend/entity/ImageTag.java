@@ -44,16 +44,16 @@ public class ImageTag {
          * tag : 肖像
          */
         @JsonProperty("confidence")
-        private String confidence;
+        private float confidence;
 
         @JsonProperty("tag")
         private String tag;
 
-        public String getConfidence() {
+        public float getConfidence() {
             return confidence;
         }
 
-        public void setConfidence(String confidence) {
+        public void setConfidence(float confidence) {
             this.confidence = confidence;
         }
 

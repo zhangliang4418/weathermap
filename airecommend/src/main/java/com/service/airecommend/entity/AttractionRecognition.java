@@ -12,7 +12,7 @@ public class AttractionRecognition {
     private List<RecommendAttraction> attractions;
 
     @JsonProperty("tags")
-    private List<ImageTag.ImageTagItem> tags;
+    private List<RecognitionTag> tags;
 
     public AttractionRecognition() {
     }
@@ -25,11 +25,37 @@ public class AttractionRecognition {
         this.attractions = attractions;
     }
 
-    public List<ImageTag.ImageTagItem> getTags() {
+    public List<RecognitionTag> getTags() {
         return tags;
     }
 
-    public void setTags(List<ImageTag.ImageTagItem> tags) {
+    public void setTags(List<RecognitionTag> tags) {
         this.tags = tags;
+    }
+
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static class RecognitionTag {
+
+        @JsonProperty("confidence")
+        private String confidence;
+
+        @JsonProperty("tag")
+        private String tag;
+
+        public String getConfidence() {
+            return confidence;
+        }
+
+        public void setConfidence(String confidence) {
+            this.confidence = confidence;
+        }
+
+        public String getTag() {
+            return tag;
+        }
+
+        public void setTag(String tag) {
+            this.tag = tag;
+        }
     }
 }

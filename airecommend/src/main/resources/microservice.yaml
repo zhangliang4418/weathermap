@@ -1,7 +1,7 @@
 APPLICATION_ID: weathermap
 service_description:
   name: airecommend
-  version: 0.0.2
+  version: 0.0.4
   properties:
     allowCrossApp: false
 cse:

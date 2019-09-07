@@ -74,7 +74,7 @@ components:
           type: array
           description: the images tags
           items:
-            $ref: '#/components/schemas/ImageTagItem'
+            $ref: '#/components/schemas/RecognitionTag'
     RecommendAttraction:
       type: object
       properties:
@@ -106,7 +106,7 @@ components:
           description: attraction description image urls
           items:
             type: string
-    ImageTagItem:
+    RecognitionTag:
       type: object
       properties:
         confidence:

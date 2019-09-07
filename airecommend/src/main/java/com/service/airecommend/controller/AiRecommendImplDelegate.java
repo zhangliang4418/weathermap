@@ -38,8 +38,18 @@ public class AiRecommendImplDelegate {
                     .filter(Objects::nonNull)
                     .collect(Collectors.toList());
 
+            List<AttractionRecognition.RecognitionTag> itList = tag.getResult().getTags()
+                    .stream()
+                    .map(el -> {
+                        AttractionRecognition.RecognitionTag it = new AttractionRecognition.RecognitionTag();
+                        it.setTag(el.getTag());
+                        it.setConfidence(String.valueOf((int) el.getConfidence()));
+                        return it;
+                    })
+                    .collect(Collectors.toList());
+
             recognition.setAttractions(rcSet);
-            recognition.setTags(tag.getResult().getTags());
+            recognition.setTags(itList);
         }
 
         return recognition;
