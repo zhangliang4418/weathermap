@@ -1,0 +1,122 @@
+{
+    "attractions": [
+        {
+            "name": "上海外滩",
+            "title": "上海外滩",
+            "city": "上海",
+            "city_location": "shanghai, cn",
+            "intro": "外滩是近代上海城市的起点，也收录着整座城市的精华。自1843年上海开埠（通商）以来，这里便成为了整座城市中最繁华的区域，时至今日。沿着宽阔的黄埔江，外滩一侧百年历史的万国建筑与对岸陆家嘴的新型都市交相辉映，转眼间展现着上海的过往与繁华。",
+            "intro_images": [
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_1.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_2.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_3.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_4.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_5.jpeg"
+            ],
+            "desc": "外滩（英文：The Bund；上海话拼音：nga thae），位于上海市黄浦区的黄浦江畔，即外黄浦滩，为中国历史文化街区。1844年（清道光廿四年）起，外滩这一带被划为英国租界，成为上海十里洋场的真实写照，也是旧上海租界区以及整个上海近代城市开始的起点。\n外滩全长1.5公里，南起延安东路，北至苏州河上的外白渡桥，东面即黄浦江，西面是旧上海金融、外贸机构的集中地。上海辟为商埠以后，外国的银行、商行、总会、报社开始在此云集，外滩成为全国乃至远东的金融中心。民国三十二年（1943年）8月，外滩随交还上海公共租界于汪伪国民政府，结束长达百年的租界时期，于民国三十四年（1945年）拥有正式路名中山东一路。\n外滩矗立着52幢风格迥异的古典复兴大楼，素有外滩万国建筑博览群之称，是中国近现代重要史迹及代表性建筑，上海的地标之一。1996年11月，国务院将其列入第四批全国重点文物保护单位。与外滩隔江相对的浦东陆家嘴，有上海标志性建筑东方明珠、金茂大厦、上海中心大厦、上海环球金融中心等，成为中国改革开放的象征和上海现代化建设的缩影。",
+            "desc_images": [
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_6.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_7.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海外滩_8.jpeg"
+            ]
+        },
+        {
+            "name": "上海静安寺",
+            "title": "上海静安寺",
+            "city": "上海",
+            "city_location": "shanghai, cn",
+            "intro": "静安寺是上海市著名古刹，寺院的建筑风格融合藏式寺庙，大雄宝殿中供奉的银佛重达15吨。",
+            "intro_images": [
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_1.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_2.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_3.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_4.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_5.jpeg"
+            ],
+            "desc": "静安寺，又称静安古寺，位于上海市静安区，其历史相传最早可追溯至三国孙吴赤乌十年（247年），初名沪渎重玄寺。宋大中祥符元年（1008年），更名静安寺。南宋嘉定九年（1216年），寺从吴淞江畔迁入境内芦浦沸井浜边（今南京西路），早于上海建城。静安寺总建筑面积达2.2万平方米，整个庙宇形成前寺后塔的格局，由大雄宝殿、天王殿、三圣殿三座主要建筑构成，是上海最古老的佛寺。寺内藏有八大山人名画、文征明真迹《琵琶行》行草长卷。静安区亦由静安寺而闻名于世。静安寺的建筑风格是仿明代以前的建筑风格，典型的代表就是斗拱的形制。静安寺是汉族地区佛教全国重点寺院之一，上海市真言宗古刹之一，上海市文物保护单位。",
+            "desc_images": [
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_6.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_7.jpeg",
+                "https://weathermap-tag.obs.cn-north-1.myhuaweicloud.com/上海景点/上海静安寺_8.jpeg"
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "confidence": "90.97",
+            "tag": "证件照"
+        },
+        {
+            "confidence": "76.83",
+            "tag": "商务"
+        },
+        {
+            "confidence": "65.24",
+            "tag": "一个人"
+        },
+        {
+            "confidence": "64.28",
+            "tag": "男人"
+        },
+        {
+            "confidence": "60.68",
+            "tag": "男性"
+        },
+        {
+            "confidence": "58.83",
+            "tag": "仅男人"
+        },
+        {
+            "confidence": "53.87",
+            "tag": "成年人"
+        },
+        {
+            "confidence": "42.67",
+            "tag": "笑"
+        },
+        {
+            "confidence": "41.33",
+            "tag": "肖像"
+        },
+        {
+            "confidence": "39.7",
+            "tag": "微笑的"
+        },
+        {
+            "confidence": "37.43",
+            "tag": "快乐"
+        },
+        {
+            "confidence": "37.3",
+            "tag": "表现积极"
+        },
+        {
+            "confidence": "36.27",
+            "tag": "职业"
+        },
+        {
+            "confidence": "35.7",
+            "tag": "彩色图片"
+        },
+        {
+            "confidence": "32.04",
+            "tag": "东方人物"
+        },
+        {
+            "confidence": "31.41",
+            "tag": "白领"
+        },
+        {
+            "confidence": "26.73",
+            "tag": "西装"
+        },
+        {
+            "confidence": "26.14",
+            "tag": "正面图"
+        },
+        {
+            "confidence": "25.97",
+            "tag": "亚洲"
+        }
+    ]
+}

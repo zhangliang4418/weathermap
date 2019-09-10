@@ -5,65 +5,92 @@
     <title>{{'weatherDemo'|translate}}</title>
     <link href="lib/bootstrap-3.3.7/bootstrap.min.css" rel="stylesheet">
     <link href="./theme/css/service.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=您的密钥"></script> -->
 </head>
 <body ng-controller="LineCtrl">
-<div>
+<div class="main-page" ng-show="!aiData.show">
     <div class="topic">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1>{{'cityWeather'|translate}}</h1>
+            <div class="row dm-height-md">
+                <div class="f-left">
+                    <div class="demo-name">{{'cityWeather'|translate}}</div>
                 </div>
-                <div class="col-md-offset-4 col-md-2">
-                    <div class="btn-group top-button-div">
-                        <label class="btn btn-default" ng-model="toggleLangModel.lang" uib-btn-radio="'English'"
-                               ng-click="toggleLangModel.click('en_us')">English</label>
-                        <label class="btn btn-default" ng-model="toggleLangModel.lang" uib-btn-radio="'中文'"
-                               ng-click="toggleLangModel.click('zh_cn')">中文</label>
+
+                <div class="f-right d-flex">
+                    <div>
+                        <div class="btn-group">
+                            <label class="btn btn-default" ng-model="toggleLangModel.lang" uib-btn-radio="'中文'"
+                                   ng-click="toggleLangModel.click('zh_cn')">中文</label>
+                            <label class="btn btn-default" ng-model="toggleLangModel.lang" uib-btn-radio="'English'"
+                                   ng-click="toggleLangModel.click('en_us')">English</label>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="btn-group top-button-div">
-                        <label class="btn btn-default" ng-model="temperatureTypeModel.dataText" uib-btn-radio="'°C'"
-                               ng-click="temperatureTypeModel.changeClickFn('C')">°C</label>
-                        <label class="btn btn-default" ng-model="temperatureTypeModel.dataText" uib-btn-radio="'°F'"
-                               ng-click="temperatureTypeModel.changeClickFn('F')">°F</label>
+                    <div class="pd-left-md">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" ng-click="temperatureTypeModel.flag=!temperatureTypeModel.flag">
+                                <span ng-bind="temperatureTypeModel.dataText"></span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" ng-class="{'display-block': temperatureTypeModel.flag}" ng-mouseleave="temperatureTypeModel.flag=false">
+                                <li>
+                                    <a ng-model="temperatureTypeModel.dataText" uib-btn-radio="'°C'"
+                                        ng-click="temperatureTypeModel.changeClickFn('C')">°C</a>
+                                </li>
+                                <li>
+                                    <a ng-model="temperatureTypeModel.dataText" uib-btn-radio="'°F'"
+                                        ng-click="temperatureTypeModel.changeClickFn('F')">°F</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+
+    <div class="search">
         <div class="row input-div">
             <div uib-alert ng-repeat="alert in restAlertModel.list" class="alert-danger"
                  close="restAlertModel.closeAlert($index)" ng-bind="alert.msg"
                  dismiss-on-timeout="5000"></div>
-            <div class="input-group col-md-6 col-md-offset-3">
-                <input type="text" class="form-control" placeholder="{{'yourCity'|translate}}" ng-model="searchModel.cityNameInput"
+            <div class="input-group">
+                <input type="text" class="form-control input-style" placeholder="{{'yourCity'|translate}}" ng-model="searchModel.cityNameInput"
                        ng-keypress="($event.which === 13) ? searchModel.searchClickFn() : 0">
                 <span class="input-group-btn">
-                    <button class="btn btn-primary" type="button" ng-click="searchModel.searchClickFn()">{{'search'|translate}}</button>
+                    <button class="btn btn-primary button-style" type="button" ng-click="searchModel.searchClickFn()">{{'search'|translate}}</button>
                 </span>
             </div>
         </div>
+    </div>
+
+    <div class="ai-sider" ng-click="aiData.click()">
+        <div class="ai-sider-icon">
+            <img src="./theme/image/ai/enter_icon.png"/>
+        </div>
+        <div class="ai-sider-label">
+            <span ng-bind="aiData.aiLabel"></span>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="row">
             <div class="row text-center sub-text-div">
-                <h3>{{'weatherDetails'|translate}}</h3>
+                <div>{{'weatherDetails'|translate}}</div>
             </div>
             <div class="row">
-                <div class="col-md-3">
-				    <div ng-show="uviDataModel.isBeta" class="beta-line">
-                        <table class="table table-striped table-bordered">
-                            <caption>
-                               <h4> {{'currentUV'|translate}} <span class="uvi-new-span">NEW</span></h4>
-                            </caption>
-                            <thead>
+                <div class="col-md-3" style="padding:0;">
+                    <div class="card-item-style mg-bottom-md" ng-show="uviDataModel.isBeta">
+                        <div class="mg-bottom-md item-title">
+                            <span>{{'currentUV'|translate}}</span>
+                            <img ng-src="./theme/image/new.png">
+                        </div>
+                        <table class="table table-striped table-style-1">
+                            <tbody>
+                            <tr></tr>
                             <tr>
                                 <th>{{'releaseTime'|translate}}</th>
                                 <th>{{'index'|translate}}</th>
                             </tr>
-                            </thead>
-                            <tbody>
                             <tr>
                                 <td ng-bind="uviDataModel.date"></td>
                                 <td ng-bind="uviDataModel.value"></td>
@@ -71,37 +98,64 @@
                             </tbody>
                         </table>
                         <div class="font-smaller uvi-div">
-                            <div ng-bind="globalData.text5" class="bg-success wm-font-bolder"></div>
-                            <div ng-bind="globalData.text6" class="bg-success"></div>
-                            <div ng-bind="globalData.text7" class="bg-success"></div>
-                            <div ng-bind="globalData.text8" class="bg-success"></div>
-                            <div ng-bind="globalData.text9" class="bg-success"></div>
-                            <div ng-bind="globalData.text10" class="bg-success"></div>
+                            <div ng-bind="globalData.text5" class="wm-font-bolder desc"></div>
+                            <div class="line-height-md">
+                                <div>
+                                    <span class="color-def-one width-md" ng-bind="globalData.levelOne"></span>
+                                    <span ng-bind="globalData.text6"></span>
+                                </div>
+                                <div>
+                                    <span class="color-def-two width-md" ng-bind="globalData.levelTwo"></span>
+                                    <span ng-bind="globalData.text7"></span>
+                                </div>
+                                <div>
+                                    <span class="color-def-thread width-md" ng-bind="globalData.levelThread"></span>
+                                    <span ng-bind="globalData.text8"></span>
+                                </div>
+                                <div>
+                                    <span class="color-def-four width-md" ng-bind="globalData.levelFour"></span>
+                                    <span ng-bind="globalData.text9"></span>
+                                </div>
+                                <div>
+                                    <span class="color-def-five width-md" ng-bind="globalData.levelFive"></span>
+                                    <span ng-bind="globalData.text10"></span>
+                                </div>
+                            </div>
                         </div>
+                    </div>
 
+                    <div class="card-item-style">
+                        <div class="item-title">
+                            <span ng-bind="globalData.text1"></span>
+                            <span class="pd-left-md">
+                                <img ng-src="./theme/image/mark.png">
+                                <span class="city-adress" ng-bind="globalData.cityDress"></span>
+                            </span>
+                        </div>
+                        <div class="weather">
+                            <span><img class="weather-img-style" ng-src="./theme/image/{{weatherTableModel.image}}.png"></span>
+                            <div class="weather-text">
+                                <span class="weather-temp-txt" ng-bind="weatherTableModel.temp"></span>
+                                <span ng-bind="weatherTableModel.weather"></span>
+                            </div>
+                        </div>
+                        <table class="table table-striped table-style-2">
+                            <caption class="time-style" ng-bind="weatherTableModel.time"></caption>
+                            <tbody>
+                            <tr ng-repeat="item in weatherTableModel.data">
+                                <td ng-bind="item.name"></td>
+                                <td ng-bind="item.value"></td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
-				
-                    <h4 ng-bind="globalData.text1" class="{{uviDataModel.isBeta?'text1':''}}"></h4>
-                    <div>
-                        <span><img ng-src="./theme/image/{{weatherTableModel.image}}.png"></span>
-                        <span class="weather-temp-txt weather-text-shadow" ng-bind="weatherTableModel.temp"></span>
-                    </div>
-                    <p ng-bind="weatherTableModel.weather"></p>
-                    <table class="table table-striped table-bordered">
-                        <caption ng-bind="weatherTableModel.time"></caption>
-                        <tbody>
-                        <tr ng-repeat="item in weatherTableModel.data">
-                            <td ng-bind="item.name"></td>
-                            <td ng-bind="item.value"></td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    
                 </div>
                 <div class="col-md-9">
-                    <uib-tabset active="0">
+                    <uib-tabset class="card-item-style" active="0">
                         <uib-tab index="0" heading="Main">
                             <div class="sub-tab-div">
-                                <h4 ng-bind="globalData.text2"></h4>
+                                <h4 class="item-title" ng-bind="globalData.text2"></h4>
                             </div>
                             <div class="sub-tab-div">
                                 <canvas id="forecastMainLineId" class="chart chart-line"
@@ -117,35 +171,34 @@
                                 <ul class="list-group list-inline row">
                                     <li class="list-group-item col-md-1"
                                         ng-repeat="lItem in forecastMainListGroupModel.data">
-                                        <img class="text-center" ng-src="./theme/image/{{lItem.image}}.png">
-                                        <div class="text-center" ng-bind="lItem.temp"></div>
-                                        <div class="text-center" ng-bind="lItem.wind"></div>
-                                        <div class="text-center" ng-bind="lItem.pressure"></div>
+                                        <img class="text-center mg-bottom-md" ng-src="./theme/image/{{lItem.image}}.png">
+                                        <div class="text-center desc wm-font-bolder" ng-bind="lItem.temp"></div>
+                                        <div class="text-center font-smaller-color-grey" ng-bind="lItem.wind"></div>
+                                        <div class="text-center font-smaller-color-grey" ng-bind="lItem.pressure"></div>
                                     </li>
                                 </ul>
                             </div>
                         </uib-tab>
                         <uib-tab index="1" heading="Hourly">
                             <div class="sub-tab-div">
-                                <h4 ng-bind="globalData.text3"></h4>
+                                <h4 class="item-title" ng-bind="globalData.text3"></h4>
                             </div>
                             <div class="sub-tab-div">
-                                <table class="table table-striped table-bordered">
+                                <table class="table table-striped">
                                     <!--<caption>Hourly weather and forecasts in Shanghai, CN</caption>-->
                                     <tbody>
                                     <tr ng-repeat="item in forecastHourlyTableModel.data">
                                         <td>
-                                            <span ng-bind="item.time"></span>
-                                            <span><img ng-src="./theme/image/{{item.image}}.png" width="50px"
-                                                       height="50px"></span>
+                                            <span class="desc" ng-bind="item.time"></span>
+                                            <span class="pd-left-md mg-left-md"><img ng-src="./theme/image/{{item.image}}.png"></span>
                                         </td>
                                         <td class="middle">
                                             <div>
-                                                <span class="weather-text-shadow" ng-bind="item.temp"></span>
-                                                <span ng-bind="item.weather"></span>
+                                                <span class="{{item.color}}" ng-bind="item.temp"></span>
+                                                <span class="desc" ng-bind="item.weather"></span>
                                             </div>
                                             <div>
-                                                <span ng-bind="item.summary"></span>
+                                                <span class="font-smaller-color-grey" ng-bind="item.summary"></span>
                                             </div>
                                         </td>
                                     </tr>
@@ -156,7 +209,7 @@
                         <uib-tab index="2" heading="Chart">
                             <div class="row sub-tab-div">
                                 <div class="col-md-8">
-                                    <h4 ng-bind="globalData.text4"></h4>
+                                    <h4 class="item-title" ng-bind="globalData.text4"></h4>
                                 </div>
                                 <div class="col-md-offset-1 col-md-3">
                                     <select class="form-control chart-select-div"
@@ -187,7 +240,7 @@
     </div>
 
     <div id="footer" class="container">
-        <nav class="navbar navbar-default navbar-fixed-bottom">
+        <nav class="navbar navbar-default navbar-fixed-bottom" style="background: #E0E4F1;line-height: 30px;margin-bottom: -10px;">
             <div class="navbar-inner navbar-content-center">
                 <p class="muted credit foot-txt-div">
                     {{'baseOn'|translate}}
@@ -200,7 +253,160 @@
     </div>
 </div>
 
+<div class="ai-page" ng-show="aiData.show">
+    <div class="ai-topic">
+        <div class="ai-container ai-topic-title">
+            <img src="./theme//image/ai/ai_icon.png"/>
+            <span ng-bind="aiData.aiLabel"></span>
+        </div>
+    </div>
+    <div class="ai-content">
+        <div class="ai-container">
+            <div class="ai-content-card" ng-show="aiData.ctShowIndex !== 4">
+                <div class="ai-content-title">
+                    <span ng-bind="aiData.aiLabel"></span>
+                </div>
+                <div class="ai-content-desc">
+                    <span ng-bind="aiData.aiDesc"></span>
+                </div>
+                <div>
+                    <div class="ai-content-add" ng-click="aiData.addClick(1)" ng-show="aiData.ctShowIndex === 0">
+                        <img src="./theme/image/ai/add.png"/>
+                        <input type="file" id="add-image-file" accept="image/*" file-model="images" onchange="angular.element(this).scope().aiData.imgUpload(this.files)"/>
+                        <div>
+                            <span ng-bind="aiData.aiAddLabel"></span>
+                        </div>
+                    </div>
+                    <div class="ai-content-image" ng-show="aiData.ctShowIndex !== 0">
+                        <div class="ai-ct-image-left">
+                            <img width="660" height="380" ng-src="{{aiData.img}}"/>
+                            <span class="ai-ct-img-mask"></span>
+                            <span class="ai-ct-img-selected" ng-bind="aiData.aiSelectedImg"></span>
+                            <img class="ai-ct-img-del" ng-click="aiData.delete(0)" src="./theme/image/ai/delete.png"/>
+                            <div class="ai-ct-scan" ng-show="aiData.ctShowIndex !== 1 && aiData.ctShowIndex !== 0">
+                                <img src="./theme/image/ai/scan-selected.png"/>
+                                <img class="ai-ct-scan-opt" src="./theme/image/ai/scan.png"/>
+                            </div>
+                        </div>
+                        <div class="ai-ct-image-right">
+                            <div class="ai-ct-img-tag-title" ng-bind="aiData.aiTagLabel"></div>
+                            <div class="ai-check-area">
+                                <div class="ai-no-data" ng-show="aiData.ctShowIndex === 1">
+                                    <img src="./theme/image/ai/no.png"/>
+                                    <div ng-bind="aiData.aiNoData"></div>
+                                </div>
+                                <div class="ai-tags" ng-show="aiData.ctShowIndex !== 1 && aiData.ctShowIndex !== 0">
+                                    <div class="ai-tag-card" ng-repeat="tag in aiData.info.tags">
+                                       <span class="ai-tag-label" ng-bind="tag.tag"></span>
+                                       <span class="ai-tag-num">{{tag.confidence}}%</span>
+                                    </div>
+                                </div>
+                                <div class="ai-view-img" ng-click="aiData.view(3)" ng-show="aiData.ctShowIndex !== 1 && aiData.ctShowIndex !== 0">
+                                    <span ng-bind="aiData.aiViews"></span>
+                                </div>
+                            </div>
+                            <div class="ai-check-btn" ng-click="aiData.scan(2)" ng-show="aiData.ctShowIndex === 1">
+                                <span ng-bind="aiData.aiScan"></span>
+                            </div>
+                            <div class="again-check-btn" ng-click="aiData.scan(3, true)" ng-show="aiData.ctShowIndex !== 1 && aiData.ctShowIndex !== 0">
+                                <span ng-bind="aiData.aiRescan"></span>
+                            </div>
+                        </div>
+                        <div class="ai-ct-image-bottom"  ng-show="aiData.ctShowIndex === 3" style="clear: both;">
+                            <div>
+                                <span ng-bind="aiData.aiLikes"></span>
+                            </div>
+                            <div class="ai-ct-img-view row">
+                                <div ng-repeat="view in aiData.info.attractions">
+                                    <div class="row">{{view.name}}</div>
+                                    <img width="140" height="125" ng-repeat="img in view.intro_images" ng-click="aiData.detail(4, view)" ng-src="{{img}}"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai-content-card" ng-show="aiData.ctShowIndex === 4">
+                <div class="ai-detail-topic">
+                    <div>
+                        <span ng-bind="detailData.title"></span>
+                        <img src="./theme/image/ai/position_icon.png"/>
+                        <span class="ai-detail-addr" ng-bind="detailData.city"></span>
+                    </div>
+                    <div>
+                        <div class="ai-detail-big-img">
+                            <img width="780" height="400" ng-src="{{detailData.desc_images[0]}}"/>
+                        </div>
+                        <div class="ai-detail-small-img">
+                            <img width="370" height="195" ng-src="{{detailData.desc_images[1]}}"/>
+                            <img width="370" height="195" ng-src="{{detailData.desc_images[2]}}"/>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="ai-detail-desc">
+                        <span ng-bind="detailData.intro"></span>
+                    </div>
+                </div>
+                <div class="ai-detail-baseinfo">
+                    <div class="ai-detail-baseinfo-topic">
+                        <span ng-bind="aiData.aiBaseinfo"></span>
+                    </div>
+                    <div class="ai-detail-baseinfo-desc">
+                        <span ng-bind="detailData.desc"></span>
+                    </div>
+                    <div class="ai-detail-intr">
+                        <!-- <div class="row">
+                            <span class="col-md-1">地址</span>
+                            <span class="col-md-11" ng-bind="detailData.city_location"></span>
+                        </div>
+                        <div class="row">
+                            <span class="col-md-1">开放时间</span>
+                            <span class="col-md-11">旺季（每年4月1日-10月31日）：08:30浪费电风扇的法第三方第三方第三方</span>
+                        </div> -->
+                        <div class="row">
+                            <span class="col-md-1" ng-bind="aiData.aiAddr"></span>
+                            <span class="col-md-11" ng-bind="detailData.name"></span>
+                        </div>
+                        <div class="row">
+                            <!-- <div class="col-md-4">
+                                <div class="row">
+                                    <span class="col-md-3">景点位置</span>
+                                    <span class="col-md-9 ai-detail-color-1">与必游景点的距离</span>
+                                </div>
+                                <div class="row" ng-show="false">
+                                    <span class="col-md-3"></span>
+                                    <span class="col-md-9"><span class="ai-detail-color-2">天安门：</span>约1.0公里</span>
+                                </div>
+                                <div class="row">
+                                    <span class="col-md-3">游玩时长</span>
+                                    <span class="col-md-9">建议0.5</span>
+                                </div>
+                                <div class="row">
+                                    <span class="col-md-3">星级</span>
+                                    <span class="col-md-9">5</span>
+                                </div>
+                                <div class="row">
+                                    <span class="col-md-3">电话</span>
+                                    <span class="col-md-9">--</span>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="col-md-8">
+                                <a ng-href="{{addr}}" target="_blank" ng-bind="aiData.aiLink"></a>
+                                <iframe id="mapAddr" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <div id="allmap"></div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
+    <script src="./lib/jquery-1.11.0.js"></script>
     <script src="./lib/angular-1.6.6/angular.min.js"></script>
     <script src="./lib/angular-translate/angular-translate.min.js"></script>
     <script src="./lib/angular-translate/angular-translate-loader-static-files.min.js"></script>
