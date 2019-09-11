@@ -663,8 +663,8 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: animals 2s linear infinite;
-    animation: animals 2s linear infinite;  
+    -webkit-animation: animals 1s linear infinite;
+    animation: animals 1s linear infinite;  
 }
 
 .ai-detail-topic {
@@ -767,6 +767,22 @@ a {
     color: #649BFB;
 }
 
+.ai-go-back {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.loading {
+    position: fixed;
+    width: 100%;
+    height: calc(100vh);
+    padding-top: 18%;
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(2, 48, 134, 0.3);
+}
 
 ::-webkit-scrollbar-track-piece {
     background-color: #f8f8f8;

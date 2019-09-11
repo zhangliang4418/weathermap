@@ -50,5 +50,6 @@ var globalLanguageEn = {
 	"aiLabel": "AI Recommended Travel.",
 	"aiDesc": "AI Recommended Tourism is an Intelligent Application, Intelligent analysis of features through your self-portrail, Recommend world famous scenic spots suitable for you according to weather condition, Solve the problem of too many scenic spots and difficult choices, Let you get the best travel experience.",
 	"aiAddLabel": 'Select Photos',
-	"aiLink": 'Jump Google Maps.'
+	"aiLink": 'Jump Google Maps.',
+	"aiGoBack": "go back"
 }

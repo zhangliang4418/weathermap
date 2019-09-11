@@ -28,6 +28,7 @@
     }]);
 
     myApp.controller("LineCtrl", function ($scope, $http, $timeout, $filter, $window, $translate, T, $location) {
+        $scope.loading = true;
         $scope.aiData = {
             aiLabel: T.T("aiLabel"),
             aiDesc: T.T("aiDesc"),
@@ -42,13 +43,14 @@
             aiBaseinfo: T.T("aiBaseinfo"),
             aiAddr: T.T("aiAddr"),
             aiLink: T.T("aiLink"),
+            aiGoBack: T.T("aiGoBack"),
             show: false,
             ctShowIndex: 0,
             img: '',
             info: '',
+            scanning: false,
             click: function () {
                 $scope.aiData.show = true;
-              
             },
             addClick: function (index) {
                 if (index !== 1) {
@@ -75,9 +77,11 @@
             },
             scan: function (index, flag) {
                 $scope.aiData.ctShowIndex = index;
+                $scope.aiData.scanning = true;
                 $http({
                     method: 'post',
                     url: '/airecommend/attractions',
+                    // url: './mock/ai.json',
                     processData: false,
                     data: {
                         "image": $scope.thumb[$scope.guid].imgSrc.replace(/^(data\:image\/jpeg\;base64\,)/, '')
@@ -85,11 +89,12 @@
                     timeout: 5000
                 }).then(function (res) {
                     if (res) {
-                        $scope.aiData.info = res.data;  
+                        $scope.aiData.info = res.data;
                     }
+                    $timeout(function () {
+                        $scope.aiData.scanning = false;
+                    }, 2000);
                 });
-
-
             },
             detail: function (index, view) {
                  $scope.aiData.ctShowIndex = index;
@@ -478,6 +483,9 @@
         }
 
         achieveAllWeatherData($scope.globalData.city);
+        $timeout(function () {
+            $scope.loading = false;
+        }, 100);
     });
 
     myApp.config(['ChartJsProvider', function (ChartJsProvider) {
